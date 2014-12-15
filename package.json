@@ -1,0 +1,16 @@
+{
+  "name": "lowbrow-lowfy",
+  "version": "1.0.0",
+  "description": "Mucking about with Browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usufruct/lowbrow-lowfy.git"
+  },
+  "author": "Michael A Anderson",
+  "license": "ISC",
+  "homepage": "https://github.com/usufruct/lowbrow-lowfy"
+}
