@@ -10,8 +10,8 @@ This 'feature' can be accessed two ways:
 
 ## Requirements
 * node
-    * grunt
-    * browserify
+    * grunt (`npm install -g grunt-cli`)
+    * browserify (`npm install -g grunt-browserify`)
 
 ## How to do it
 * npm install
