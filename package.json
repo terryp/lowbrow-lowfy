@@ -1,16 +1,21 @@
 {
   "name": "lowbrow-lowfy",
-  "version": "1.0.0",
-  "description": "Mucking about with Browserify",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/usufruct/lowbrow-lowfy.git"
+  "dependencies": {
+    "express": "~4.9.0",
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "debug": "~2.0.0",
+    "ejs": "~0.8.5"
   },
-  "author": "Michael A Anderson",
-  "license": "ISC",
-  "homepage": "https://github.com/usufruct/lowbrow-lowfy"
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1"
+  }
 }
